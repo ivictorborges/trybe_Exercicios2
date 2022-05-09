@@ -1,3 +1,3 @@
-# DIA 1
+# DIA 2
 
-- O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre HTML e CSS - Estruturas de Página. Dentre os conteúdos, pude ler sobre como : estruturar páginas web com HTML utilizando as tags html, head e body, utilizar o HTML para estruturar textos e títulos, utilizar o HTML para criar listas, links e adicionar imagens.
+- O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre HTML e CSS - Primeiros passos em CSS. Dentre os conteúdos, pude ler sobre como : criar regras de estilo para tags HTML utilizando o CSS, utilizar os seletores de tag, id e class para aplicar regras de CSS, alterar características da fonte e das cores de páginas web e utilizar CSS inline e externo.
