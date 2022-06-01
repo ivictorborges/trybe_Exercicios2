@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TrybeTrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulário de Preenchimento</h1>
+
+    <form id="form" method="get">
+        <div class="content">
+            <label for="full-name"><strong> Nome Completo :</strong>
+                <input type="text" name="nome" id="full-name" minlength="10" maxlength="40">
+            </label>
+        </div>
+        <div class="content">
+            <label for="email"><strong> Email :</strong>
+                <input type="text" name="email" id="email" minlength="10" maxlength="50">
+            </label>
+        </div>
+        <h4>Destino Preferido :</h4>
+        <div class="content">
+            <label for="radio-cidade"><input type="radio" name="destino preferido" id="radio-cidade">Cidade</label>
+            <label for="radio-campo"><input type="radio" name="destino preferido" id="radio-campo">Campo</label>
+            <label for="radio-praia"><input type="radio" name="destino preferido" id="radio-praia"> Praia </label>
+            <label for="radio-montanhas"><input type="radio" name="destino preferido" id="radio-montanhas"> Montanhas </label>
+        </div>
+        <div class="content">
+            <label for="textarea"><strong>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?<textarea name="description" id="textarea" maxlength="500"></textarea></label>
+        </div>
+        <div class="content">
+            <label for="date"><strong> Data</strong> :<input type="date" name="data" id="date"></label>
+        </div>
+        <h4>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</h4>
+        <div class="content">
+            <label for="yescheck">Sim<input type="radio" name="oferta" id="yescheck"></label>
+            <label for="nocheck">Não<input type="radio" name="oferta" id="nocheck"></label>
+        </div>
+        <div class="content">
+            <label for="check-images"><strong> Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros</strong><input type="checkbox" name="imagens" id="check-images"></label>
+        </div>
+        <button type="submit">Pronto !</button>
+    </form>
+</body>
+
+</html>
