@@ -1,32 +1,50 @@
-body {  background-color: #6199CE;
+body {
+        background-color: #6199CE;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: larger;}
+        font-size: larger;
+}
 
-#trybe { color: #3f7b3d;}
+#trybe {
+        color: #3f7b3d;
+}
 
-h1, #strongdescription { font-family:'Open Sans', sans-serif;<link rel="preconnect" href="https://fonts.googleapis.com">
-                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">;
-                        color: #d2b337}
+#victorname {
+        color: #D2B337;
+        text-align: center;
+}
 
-#skilladaptabilidade {  font-size: 130%;
-                        color: #D2B337;}
+#skilladaptabilidade {
+        font-size: 130%;
+        color: #D2B337;
+}
 
-.infocontents { height:550px;}
+.infocontents {
+        display: flex;
+        height: 550px;
+}
 
+#victorimage {
+        width: 250px;
+        height: 450px;
+        background-color: #D2B337;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-right: 50px;
+        display: flex;
+        padding: 20px;
+}
 
-#victorname { text-align: center;}
+.description {
+        display: flex;
+        margin-top: 50px;
+}
 
-#victorimage {  width: 250px;
-                height: 450px;
-                float: left;
-                background-color: #D2B337;
-                padding-right: 80px;
-                border-radius: 10px;}
+#impar {
+        font-style: italic;
+}
 
-.victordescription {float:inline-end;
-                    position: relative;
-                    left: 30px;}
-
-#impar { color: #9f9f32;
-        font-weight: 1000;}
+a {
+        text-decoration: none;
+        color: #D2B337;
+}
