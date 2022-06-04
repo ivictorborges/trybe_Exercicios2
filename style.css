@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(221, 123, 123);
+    font-family:'Coming Soon', cursive;
+}
+
+header {
+    color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+
+article h2 {
+    color: aqua;
+    text-align: center;
+    margin-top: 80px;
+}
+
+article p {
+    margin-left: 30px;
+}
+
+.one h3 {
+    color: aqua;
+    text-align: center;
+}
+
+.one h4 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.table .first {
+    font-weight: bold;
+}
+
+.one div {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.two h3 {
+    color: aqua;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.two div {
+    display: flex;
+    justify-content: center;
+}
+
+.three h3 {
+    color: aqua;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.three p {
+    text-align: center;
+}
+
+.three div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.four h3 {
+    color: aqua;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.four a {
+    text-decoration: none;
+    color: black;
+}
+
+.four div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+aside h4 {
+    color: aqua;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+footer {
+    text-align: center;
+}
