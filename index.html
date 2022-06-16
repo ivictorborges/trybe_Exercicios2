@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+//  REQUISITO 1
+     const newH1Element = document.createElement('h1');
+     newH1Element.innerText = 'Exercício 5.2 - JavaScript DOM';
+     document.body.appendChild(newH1Element);
+
+//  REQUISITO 2
+     const newMainElement = document.createElement('Main');
+     newMainElement.className = 'main-content';
+     document.body.appendChild(newMainElement);
+
+// REQUISITO 3
+     const newSectionElement = document.createElement('Section');
+     newSectionElement.className = 'center-content';
+     newMainElement.appendChild(newSectionElement);
+
+// REQUISITO 4
+     const newPElement = document.createElement('p');
+     newPElement.innerText = 'Texto';
+     newSectionElement.appendChild(newPElement);
+
+// REQUISITO 5
+     const newSection2Element = document.createElement('Section');
+     newSection2Element.className = 'left-content';
+     newMainElement.appendChild(newSection2Element);
+
+// REQUISITO 6
+     const newSection3Element = document.createElement('Section');
+     newSection3Element.className = 'right-content';
+     newMainElement.appendChild(newSection3Element);
+
+// REQUISITO 7
+     const newImage = document.createElement('img');
+     newImage.src ='https://picsum.photos/200';
+     newImage.className = 'small-image';
+     newSection2Element.appendChild(newImage);
+
+// REQUISITO 8
+     const unList = document.createElement('ul');
+        newSection3Element.appendChild(unList);
+        let array = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez'];
+        for (let numbers in array) {
+            let liElement = document.createElement('li');
+            liElement.innerHTML = array[numbers];
+            unList.appendChild(liElement);
+        }
+
+// REQUISITO 9 E 11
+    for (let create = 1; create <= 3; create += 1) {
+        const newH3Element = document.createElement('h3');
+        newH3Element.innerText = 'Texto';
+        newH3Element.className = 'description';
+        newMainElement.appendChild(newH3Element);
+    }
+
+// REQUISITO 10
+    newH1Element.className = 'title';
+
+// REQUISITO 12
+    newMainElement.removeChild(newSection2Element);
+
+// REQUISITO 13
+    newSectionElement.style.marginRight = 'auto';
+
+// REQUISITO 14
+    newMainElement.style.backgroundColor = 'green';
+
+// REQUISITO 15
+    const uList = document.getElementsByTagName('ul')[0];
+    uList.lastChild.remove();
+    uList.lastChild.remove();
+    </script>
+  </body>
+</html>
