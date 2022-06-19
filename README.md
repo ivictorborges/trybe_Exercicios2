@@ -1,3 +1,3 @@
-# PORTIFÓLIO WEB
+# BLOCO 7, DIA 2
 
-- O objetivo desse repositório é expor versões de exercícios realizados durante o curso da @Trybe !
+- O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre JavaScript ES6 - Fluxo de exceção e Objetos. Dentre os conteúdos, pude ler sobre como lançar erros com throw e capturá-los com o bloco try/catch; acessar todas as chaves de um objeto com o método Object.keys; acessar os pares chave-valor de um objeto com o método Object.entries; acessar todos os valores de um objeto com o método Object.values; copiar um objeto com o método Object.assign; adicionar propriedades a um objeto.
