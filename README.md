@@ -1,3 +1,3 @@
-# PORTIFÓLIO WEB
+# BLOCO 8, DIA 2
 
-- O objetivo desse repositório é expor versões de exercícios realizados durante o curso da @Trybe !
+- O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort. Dentre os conteúdos, pude ler sobre como utilizar a função Array.forEach para iterar sobre todos os elementos de um array; utilizar a função Array.find para encontrar o primeiro elemento de um array que satisfaça a uma condição; utilizar as funções Array.some e Array.every para testar se os elementos de um array satisfazem a uma condição; utilizar a função Array.sort para ordenar arrays de acordo com algum critério.
