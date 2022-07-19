@@ -1,3 +1,3 @@
-# EXERCÍCIOS DA TRYBE
+# BLOCO 10, DIA 2
 
-- O objetivo desse repositório é expor versões de exercícios realizados durante o curso da @Trybe !
+- O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Componentes React. Dentre os conteúdos, pude ler sobre como criar componentes React corretamente; fazer uso de props corretamente; fazer composição de componentes corretamente; criar múltiplos componentes dinamicamente; utilizar PropTypes para checar o tipo de uma prop no uso de um componente; utilizar PropTypes para garantir a presença de props obrigatórias no uso de um componente; utilizar PropTypes para checar que uma prop é um objeto de formato específico; utilizar PropTypes para garantir que uma prop é um array com elementos de um determinado tipo.
